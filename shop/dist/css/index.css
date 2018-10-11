@@ -1,0 +1,452 @@
+@charset "UTF-8";
+h1, h2, h3, h4, h5, h6, div, html, body, ul, dl, ol, li, dl, dt, dd, form, input, p, fieldset, legend, img {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, dl {
+  list-style: none; }
+
+img {
+  border: 0; }
+
+a, u {
+  text-decoration: none; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+.outline {
+  width: 100%;
+  height: 1000px;
+  background: red;
+  /*头部*/
+  /*广告*/
+  /*内容*/
+  /*信息*/
+  /*底部*/ }
+  .outline .header {
+    width: 100%;
+    height: 100px;
+    background: #fff; }
+    .outline .header .top {
+      width: 1200px;
+      height: 29px;
+      margin: auto; }
+      .outline .header .top ul {
+        height: 29px; }
+        .outline .header .top ul li {
+          float: left;
+          line-height: 29px;
+          background: url("../images/line_03.jpg") no-repeat right; }
+          .outline .header .top ul li a {
+            padding: 0px 7px;
+            color: #a4a4a4;
+            font-size: 12px; }
+          .outline .header .top ul li a:hover {
+            color: red; }
+      .outline .header .top .left {
+        width: 700px;
+        float: left; }
+      .outline .header .top .right {
+        width: 250px;
+        float: right; }
+    .outline .header .nav {
+      width: 1200px;
+      height: 71px;
+      margin: auto; }
+      .outline .header .nav ul {
+        width: 800px;
+        height: 71px;
+        float: left; }
+        .outline .header .nav ul li {
+          height: 71px;
+          margin-right: 20px;
+          float: left;
+          position: relative; }
+          .outline .header .nav ul li a {
+            line-height: 40px;
+            display: block;
+            font-size: 15px;
+            color: #3a3a3a;
+            position: relative;
+            top: 20px; }
+          .outline .header .nav ul li a:hover {
+            color: #990000;
+            border-bottom: 2px solid #990000; }
+        .outline .header .nav ul .first {
+          padding-right: 10px;
+          background: url("../images/line_07.jpg") no-repeat right; }
+          .outline .header .nav ul .first a {
+            width: 97px;
+            height: 40px;
+            background: url("../images/20170703105852645577.png") no-repeat right; }
+        .outline .header .nav ul .second {
+          padding: 0px 47px 0px 19px; }
+          .outline .header .nav ul .second a {
+            width: 110px;
+            height: 40px;
+            background: url("../images/20180528111304651.png") no-repeat center; }
+      .outline .header .nav form {
+        width: 328px;
+        height: 30px;
+        border: 1px solid #dddddd;
+        float: right;
+        position: relative;
+        top: 20px; }
+        .outline .header .nav form .button {
+          width: 40px;
+          height: 30px;
+          float: right;
+          border: 0;
+          background: url("../images/find_10.jpg") #fff no-repeat center; }
+        .outline .header .nav form .text {
+          width: 288px;
+          height: 30px;
+          border: 0;
+          float: left; }
+  .outline .banner {
+    width: 100%;
+    height: 449px;
+    background: pink;
+    position: relative;
+    overflow: hidden; }
+    .outline .banner ul {
+      width: 100%;
+      height: 449px;
+      position: absolute; }
+      .outline .banner ul li {
+        float: left; }
+      .outline .banner ul img {
+        width: 100%;
+        height: 449px;
+        display: block; }
+    .outline .banner ol {
+      width: 200px;
+      height: 12px;
+      position: absolute;
+      bottom: 27px;
+      left: 635px; }
+      .outline .banner ol li {
+        width: 12px;
+        height: 12px;
+        border: 1px solid red;
+        border-radius: 50%;
+        float: left;
+        margin: 0px 5px; }
+      .outline .banner ol .active {
+        background: #fff; }
+  .outline .content {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    overflow: hidden; }
+    .outline .content .title {
+      width: 1200px;
+      height: 59px;
+      border: 1px solid red;
+      margin: 60px auto 0px;
+      font-size: 29px;
+      color: #000;
+      text-align: center;
+      line-height: 59px;
+      background: url(../images/line_03_03.jpg) no-repeat top center; }
+    .outline .content .write {
+      width: 1200px;
+      height: 11px; }
+    .outline .content .ulimg {
+      width: 1200px;
+      height: 278px;
+      margin: auto; }
+      .outline .content .ulimg li {
+        float: left;
+        width: 298px;
+        border: 1px solid #eaeaea; }
+        .outline .content .ulimg li img {
+          display: block; }
+    .outline .content .reference {
+      width: 1200px;
+      height: 190px;
+      margin: 20px auto 0px; }
+      .outline .content .reference li {
+        width: 386px;
+        position: relative;
+        float: left; }
+        .outline .content .reference li a div {
+          width: 158px;
+          height: 126px;
+          background: rgba(139, 138, 138, 0.5);
+          position: absolute;
+          padding: 32px 16px;
+          right: 0px;
+          color: #fff;
+          font-size: 12px;
+          margin: 0px; }
+          .outline .content .reference li a div b {
+            font-size: 13px;
+            font-weight: 700;
+            display: block; }
+          .outline .content .reference li a div i {
+            display: block;
+            height: 36px;
+            line-height: 36px;
+            margin-top: 26px;
+            background: url("../images/line-_03.jpg") no-repeat; }
+          .outline .content .reference li a div p {
+            width: 158px;
+            height: 12px;
+            margin-top: 12px; }
+        .outline .content .reference li a p {
+          display: block;
+          width: 386px;
+          height: 190px; }
+        .outline .content .reference li a:hover div {
+          background: #990000; }
+    .outline .content .smalltitle {
+      width: 1200px;
+      height: 30px;
+      margin: 0px auto 18px;
+      position: relative;
+      font-size: 12px; }
+      .outline .content .smalltitle ul {
+        text-align: center; }
+        .outline .content .smalltitle ul li {
+          display: inline-block;
+          line-height: 29px;
+          padding: 0px 11.5px; }
+          .outline .content .smalltitle ul li a {
+            color: #717171; }
+      .outline .content .smalltitle .more {
+        display: block;
+        width: 66px;
+        height: 27px;
+        line-height: 27px;
+        border: 1px solid #ccc;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        text-align: center; }
+    .outline .content .model1 {
+      width: 1200px;
+      height: 593px;
+      margin: auto; }
+      .outline .content .model1 ul li {
+        float: left;
+        position: relative;
+        margin-right: 12px; }
+        .outline .content .model1 ul li a img {
+          display: block; }
+        .outline .content .model1 ul li a .writeli {
+          color: #fff; }
+        .outline .content .model1 ul li a div {
+          width: 250px;
+          height: 78px;
+          position: absolute;
+          left: 30px;
+          top: 18px;
+          color: #000;
+          font-size: 13px;
+          margin: 0px; }
+          .outline .content .model1 ul li a div p {
+            font-size: 17px;
+            height: 57px;
+            line-height: 57px;
+            background: url("../images/line-_07.jpg") no-repeat; }
+          .outline .content .model1 ul li a div i {
+            display: block;
+            height: 21px;
+            line-height: 21px;
+            color: #990000; }
+      .outline .content .model1 ul .li-right {
+        margin: 0px; }
+      .outline .content .model1 ul .li-top {
+        margin-top: 12px; }
+    .outline .content .model2 {
+      width: 1200px;
+      height: 256px;
+      margin: auto;
+      overflow: hidden;
+      position: relative; }
+      .outline .content .model2 .button {
+        position: absolute;
+        width: 22px;
+        height: 75px;
+        background: #d1d1d1; }
+      .outline .content .model2 .butleft {
+        top: 110px;
+        left: 0px; }
+      .outline .content .model2 .butright {
+        top: 110px;
+        right: 0px; }
+      .outline .content .model2 ul {
+        height: 256px;
+        width: 1512px;
+        border: 1px solid red; }
+        .outline .content .model2 ul li {
+          width: 214px;
+          height: 256px;
+          float: left;
+          text-align: center;
+          border: 1px solid #ccc;
+          font-size: 11px; }
+          .outline .content .model2 ul li a {
+            color: #a4a4a4; }
+            .outline .content .model2 ul li a img {
+              display: block;
+              width: 102px;
+              height: 118px;
+              margin: 23px 56px; }
+            .outline .content .model2 ul li a div b {
+              height: 39px;
+              line-height: 39px;
+              font-size: 13px;
+              color: #000; }
+            .outline .content .model2 ul li a div i {
+              display: block;
+              margin-top: 12px;
+              color: #990000;
+              font-size: 10px; }
+    .outline .content #common, .outline .content .model3 {
+      width: 1200px;
+      margin: auto;
+      border: 1px solid; }
+    .outline .content .model3 {
+      height: 746px; }
+      .outline .content .model3 img {
+        display: block; }
+      .outline .content .model3 ul {
+        position: relative; }
+        .outline .content .model3 ul li {
+          float: left;
+          border: 1px solid #ccc; }
+        .outline .content .model3 ul .li-width {
+          width: 396px;
+          height: 374px;
+          font-size: 12px;
+          text-align: center; }
+          .outline .content .model3 ul .li-width img {
+            width: 200px;
+            height: 159px;
+            margin: 49px 100px; }
+          .outline .content .model3 ul .li-width b {
+            font-size: 13px;
+            color: #000; }
+          .outline .content .model3 ul .li-width p {
+            height: 36px;
+            line-height: 36px; }
+          .outline .content .model3 ul .li-width i {
+            height: 27px;
+            line-height: 27px;
+            font-size: 13px;
+            display: block;
+            margin-top: 12px;
+            color: #990000;
+            font-size: 10px;
+            background: url("../images/line-_07.jpg") no-repeat top center; }
+        .outline .content .model3 ul .last {
+          position: relative; }
+          .outline .content .model3 ul .last a div {
+            width: 350px;
+            height: 206px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            color: #fff;
+            padding: 84px 23px;
+            background: rgba(141, 141, 141, 0.5); }
+            .outline .content .model3 ul .last a div b {
+              font-size: 17px; }
+            .outline .content .model3 ul .last a div p {
+              height: 62px;
+              line-height: 62px; }
+            .outline .content .model3 ul .last a div i {
+              height: 59px;
+              line-height: 59px;
+              display: block;
+              background: url("../images/line-_03.jpg") no-repeat; }
+          .outline .content .model3 ul .last a img {
+            width: 794px;
+            height: 373px; }
+          .outline .content .model3 ul .last a:hover div {
+            background: #990000; }
+  .outline .message {
+    width: 100%;
+    height: 359px;
+    background: #f0f0f0; }
+    .outline .message .top {
+      width: 1200px;
+      height: 140px;
+      margin: auto;
+      border-bottom: 1px solid #ccc; }
+      .outline .message .top li {
+        margin: 47px 0px;
+        float: left;
+        background: url("../images/message_15.jpg") no-repeat; }
+        .outline .message .top li a {
+          width: 300px;
+          height: 46px;
+          line-height: 46px;
+          display: block;
+          text-align: center; }
+    .outline .message .tail {
+      width: 1200px;
+      height: 220px;
+      margin: auto; }
+      .outline .message .tail dl {
+        margin-top: 30px;
+        width: 171px;
+        float: left; }
+        .outline .message .tail dl dt {
+          height: 12px;
+          font-size: 12px;
+          background: url("../images/message_28.jpg") no-repeat;
+          padding: 19px 0px; }
+        .outline .message .tail dl .last {
+          font-weight: 900;
+          font-size: 17px; }
+        .outline .message .tail dl dd {
+          font-size: 11px;
+          color: #666666;
+          margin-bottom: 11px; }
+          .outline .message .tail dl dd a {
+            color: #666666; }
+        .outline .message .tail dl .phone {
+          height: 35px;
+          width: 160px;
+          line-height: 35px;
+          text-align: center;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          color: #990000;
+          font-size: 12px;
+          font-weight: 900; }
+          .outline .message .tail dl .phone img {
+            margin-right: 12px;
+            vertical-align: middle; }
+  .outline .bottom {
+    width: 100%;
+    height: 100px;
+    background: #e6e6e6;
+    overflow: hidden; }
+    .outline .bottom .content {
+      width: 1200px;
+      height: 40px;
+      margin: 30px auto; }
+      .outline .bottom .content img {
+        display: block;
+        float: left;
+        margin-top: 15px; }
+      .outline .bottom .content .middle {
+        float: left;
+        font-size: 12px;
+        color: #a4a4a4;
+        margin-left: 38px; }
+      .outline .bottom .content .right {
+        float: right; }
+        .outline .bottom .content .right img {
+          width: 70px;
+          height: 24px;
+          margin-top: 10px;
+          margin-left: 4px; }
